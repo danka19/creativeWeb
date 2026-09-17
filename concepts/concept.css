@@ -1,0 +1,49 @@
+/* Scoped editorial layout for static concept breakdowns. */
+.concept-page h1,.concept-page h2,.concept-page h3,.concept-page p{margin-top:0}
+.concept-page .header nav a{display:inline}
+.concept-page .header nav{margin-right:35px}
+.concept-page .concept-breadcrumb{padding-top:25px;font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.concept-breadcrumb a,.concept-prose a,.concept-art figcaption a{color:var(--blue);text-decoration:underline;text-underline-offset:4px}
+.concept-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:7%;align-items:center;padding-block:45px 65px}
+.concept-page h1{font-size:clamp(42px,4.5vw,68px);line-height:1.09;letter-spacing:-.065em;font-weight:650;margin:25px 0}
+.concept-lead{font-size:17px;line-height:1.85;max-width:550px}
+.concept-author{font-size:12px;margin-top:25px;color:var(--blue)}
+.concept-disclosure{font-size:12px;line-height:1.75;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;max-width:530px}
+.concept-art{margin:0;min-width:0}
+.concept-art>a{display:block;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:white}
+.concept-art img{width:100%;height:auto}
+.concept-art figcaption{font-size:11px;line-height:1.8;color:var(--muted);margin-top:13px}
+.concept-art figcaption a{display:inline-block}
+.concept-facts{border-block:1px solid var(--line);padding-block:25px}
+.concept-facts dl{display:grid;grid-template-columns:repeat(3,1fr);gap:35px;margin:0}
+.concept-facts dt{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-bottom:10px}
+.concept-facts dd{font-size:14px;line-height:1.65;margin:0}
+.concept-body{display:grid;grid-template-columns:260px minmax(0,760px);justify-content:space-between;gap:65px;padding-block:65px}
+.concept-body aside nav{display:flex;flex-direction:column;gap:17px}
+.concept-body aside nav>a{font-size:12px;line-height:1.7;border-bottom:1px solid var(--line);padding-bottom:14px}
+.concept-body aside a:hover{color:var(--blue)}
+.concept-behance{display:block;font-size:12px;color:var(--blue);margin-top:28px;line-height:1.7}
+.concept-summary{background:#e9edf5;border-left:3px solid var(--blue);padding:27px 30px;margin-bottom:55px}
+.concept-summary p:last-child{font-size:17px;line-height:1.85;margin:15px 0 0}
+.concept-prose section{margin-top:45px;scroll-margin-top:30px}
+.concept-page h2{font-size:clamp(27px,2.6vw,37px);font-weight:600;letter-spacing:-.045em;line-height:1.25;margin-bottom:23px}
+.concept-prose .eyebrow+h2{margin-top:17px}
+.concept-prose h3{font-size:20px;letter-spacing:-.025em;line-height:1.45;margin-top:30px;margin-bottom:14px}
+.concept-prose p{font-size:15px;line-height:1.95;margin-bottom:19px}
+.concept-prose .concept-art{margin:28px 0 38px;max-width:720px}
+.concept-prose .concept-takeaway{border-block:1px solid var(--line);padding-block:30px;margin-bottom:30px}
+.concept-prose .concept-takeaway p{margin-bottom:0}
+.concept-prose .concept-credit{font-size:12px;color:var(--muted)}
+.concept-related{border-top:1px solid var(--line);padding-block:45px}
+.concept-related h2{margin-top:20px}
+.concept-related>div{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.concept-related>div>a{border-block:1px solid var(--line);padding:25px 0}
+.concept-related span{display:block;color:var(--muted);font-size:12px;margin-bottom:12px}
+.concept-related strong{font-size:20px;font-weight:550;color:var(--blue)}
+.concept-start{padding-block:15px 55px}
+.concept-start>div{padding:42px;background:#e9edf5;border-radius:22px}
+.concept-start h2{margin-top:22px;font-size:42px}
+.concept-start p:not(.eyebrow){max-width:620px;line-height:1.85;margin-bottom:25px}
+.concept-email{display:inline-block;font-size:13px;margin:20px 0 0 22px;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px){.concept-body{grid-template-columns:200px minmax(0,1fr);gap:35px}.concept-hero{gap:4%}}
+@media(max-width:740px){.concept-page .header nav{margin-right:0}.concept-hero{grid-template-columns:1fr;gap:26px;padding-block:30px 40px}.concept-hero .concept-art{max-width:540px}.concept-page h1{font-size:clamp(38px,8vw,58px)}.concept-lead{font-size:16px}.concept-facts dl{grid-template-columns:1fr;gap:20px}.concept-body{grid-template-columns:1fr;gap:32px;padding-block:35px}.concept-body aside nav{gap:12px}.concept-body aside nav>a{padding-bottom:10px}.concept-summary{padding:23px;margin-bottom:38px}.concept-summary p:last-child{font-size:16px}.concept-related>div{grid-template-columns:1fr;gap:0}.concept-start>div{padding:27px}.concept-start h2{font-size:34px}.concept-email{display:block;margin-left:0}.concept-page .eyebrow{line-height:1.8}.concept-prose p{font-size:14px}.concept-related strong{font-size:18px}}
