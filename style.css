@@ -58,3 +58,11 @@
   .project .post-title-block h3{margin:0;font-size:17px;line-height:1.4}
   .project .case-story{grid-area:auto}
 }
+/* Give the creative the central visual focus, with a quieter text column. */
+@media(min-width:1151px){
+  .project{padding-left:clamp(80px,12vw,180px);padding-right:40px;column-gap:clamp(30px,3vw,48px)}
+  .project .case-story{max-width:360px;padding-right:0}
+}
+@media(min-width:1000px) and (max-width:1150px){
+  .project{padding-left:52px}
+}
