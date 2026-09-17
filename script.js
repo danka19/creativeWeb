@@ -101,7 +101,7 @@
       const copy=document.createElement('button');copy.type='button';copy.textContent=c.copy;copy.setAttribute('aria-label',c.copy+': '+label);
       copy.addEventListener('click',async()=>{const ok=await copyValue(value,input);copy.textContent=ok?c.copiedShort:c.copy;document.querySelector('.share-status').textContent=ok?label+' — '+c.copiedShort:c.copyError;if(ok)copy.focus();});row.append(field,copy);container.append(row);
     });
-    document.querySelector('.share-local-note').textContent=base?'':c.localShareNote;document.querySelector('.share-status').textContent='';document.querySelector('.share-close').setAttribute('aria-label',c.close);shareDialog.showModal();
+    document.querySelector('.share-status').textContent='';document.querySelector('.share-close').setAttribute('aria-label',c.close);shareDialog.showModal();
   }));
   document.querySelector('.share-close').addEventListener('click',()=>shareDialog.close());
   shareDialog.addEventListener('click',event=>{if(event.target!==shareDialog)return;const r=shareDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)shareDialog.close();});

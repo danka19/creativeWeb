@@ -428,7 +428,6 @@ window.PORTFOLIO = {
       "creative": "Этот креатив",
       "localWebsite": "Портфолио на Behance",
       "localCreative": "Креатив на Behance",
-      "localShareNote": "В локальном превью используются публичные ссылки Behance.",
       "copyError": "Не удалось скопировать автоматически. Выделите и скопируйте текст.",
       "postType": "Независимый рекламный концепт",
       "feedNote": "Коллекция независимых идей. С интересом к сути."
@@ -502,7 +501,6 @@ window.PORTFOLIO = {
       "creative": "This creative",
       "localWebsite": "Portfolio on Behance",
       "localCreative": "Creative on Behance",
-      "localShareNote": "Public Behance links are used in this local preview.",
       "copyError": "Could not copy automatically. Select and copy the text.",
       "postType": "Independent ad concept",
       "feedNote": "A collection of independent ideas. Made with curiosity."
