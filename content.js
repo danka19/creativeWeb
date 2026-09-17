@@ -3,7 +3,7 @@ window.PORTFOLIO = {
   "name": "Dana Fink",
   "email": "danafinkmain@gmail.com",
   "behance": "https://www.behance.net/bed0d1bc",
-  "collection": "https://www.behance.net/gallery/255787597/SaaS-Ad-Concepts-11-Products",
+  "collection": "https://www.behance.net/gallery/255787597/B2B-Ad-Concepts-21-Products-and-Services",
   "telegram": "https://t.me/dankosheart",
   "projects": [
     {
@@ -30,8 +30,7 @@ window.PORTFOLIO = {
           "Automatic assignment has a clear visual sequence: incoming request → assigned teammate. “Less sorting. More supporting.” connects that mechanism to the team’s work without inventing resolution times or numerical savings.",
           "One ticket and one teammate make the mechanism tangible. The light background gives the headline space, and the coral button completes the reading path. Alex and the VPN request are illustrative examples. Assigned does not mean resolved."
         ]
-      },
-      "source": "https://monday.com/service"
+      }
     },
     {
       "id": 2,
@@ -57,8 +56,7 @@ window.PORTFOLIO = {
           "Rather than listing product features, the idea explains the assignment mechanism. During revision, the centre of the diagram changed: automatic assignment replaced an overloaded person as the focal point.",
           "Requests and teammates are connected to show what happens after a ticket arrives. This is an alternative message and composition, not an A/B-test winner. No campaign comparison took place, and several elements differ between the versions."
         ]
-      },
-      "source": "https://monday.com/service"
+      }
     },
     {
       "id": 3,
@@ -84,8 +82,7 @@ window.PORTFOLIO = {
           "A wide layout creates a different reading path: headline, process and action need to follow each other clearly. The adaptation is treated as its own composition rather than a cropped square.",
           "It preserves the assignment message and the series’ visual direction. Small labels become less legible when reduced, so the light square remains the preferred first presentation. The landscape version can be opened at a larger size for a closer look."
         ]
-      },
-      "source": "https://monday.com/service"
+      }
     },
     {
       "id": 4,
@@ -111,8 +108,7 @@ window.PORTFOLIO = {
           "Subscription revenue movements provide the product foundation. A ChartMogul reference informed the principle of explaining a management question with one infographic; its forecasts and numerical claims were not carried over.",
           "One illustrative line, labelled New subscriptions, Upgrades and Cancellations, explains the headline. A light canvas and pastel chart reflect Baremetrics’ visual character. This is not a real interface, measured revenue or evidence of growth."
         ]
-      },
-      "source": "https://baremetrics.com"
+      }
     },
     {
       "id": 5,
@@ -138,8 +134,7 @@ window.PORTFOLIO = {
           "The message is built around the contrast between proof and promise. A G2 reference informed the combination of bold copy and customer voice, without bringing over a portrait, testimonial or claimed outcome.",
           "The feedback → evidence diagram makes transformation the central event. Quotation marks stand for a type of material, not an invented customer quote. A bold black headline and purple accents connect the idea to UserEvidence’s visual character."
         ]
-      },
-      "source": "https://userevidence.com"
+      }
     },
     {
       "id": 6,
@@ -165,8 +160,7 @@ window.PORTFOLIO = {
           "The connection between source, call or form, and qualification comes from the product research. A CallRail reference informed the link between marketing and a valuable inquiry; a reporting structure replaces the phone-and-coins metaphor.",
           "Two illustrative rows make Source → Lead → Qualified easy to follow. A blue field and white cards keep attention on the information. The checkmarks are examples, not a claim that every lead qualifies or that qualification is always automatic."
         ]
-      },
-      "source": "https://www.whatconverts.com"
+      }
     },
     {
       "id": 7,
@@ -192,8 +186,7 @@ window.PORTFOLIO = {
           "The focus is Demo Suite and buyer-led exploration. A Demostack reference informed the use of one buyer-facing message and large typography, not a copied interface.",
           "A cursor and a highlighted action make participation the central image. The dark burgundy setting and light window follow Storylane’s visual direction at the time of research. The window is an illustration, not a product screenshot or a working demo."
         ]
-      },
-      "source": "https://www.storylane.io"
+      }
     },
     {
       "id": 8,
@@ -219,8 +212,7 @@ window.PORTFOLIO = {
           "The research connected two layers of the message: self-guided exploration for the buyer and no-code demo creation for the team. Unlike Storylane’s single interaction, this concept tells its story through a sequence.",
           "Explore → Try → Understand are connected by a blue line. White, black and blue follow Navattic’s published palette as a visual guide. The illustrative screens show a discovery journey, not real interface captures or a measured learning outcome."
         ]
-      },
-      "source": "https://www.navattic.com/product/interactive-demos"
+      }
     },
     {
       "id": 9,
@@ -246,8 +238,7 @@ window.PORTFOLIO = {
           "Instead of a broad productivity promise, it focuses on two visible actions: assign the conversation and discuss it with the team. A Front reference informed the focus on a coordination problem; the new execution takes a calmer tone.",
           "One inquiry, an assignment to Alex and “I’ll take this one” tell a small work story. The light canvas, blue accent and headline character follow observations of Missive. The teammate and conversation are fictional examples, not a customer testimonial."
         ]
-      },
-      "source": "https://missiveapp.com"
+      }
     },
     {
       "id": 10,
@@ -273,8 +264,7 @@ window.PORTFOLIO = {
           "An email context makes the result concrete. A Grammarly reference informed the presentation of text inside a work setting, but its AI rewriting mechanism is not attributed to TextExpander: this is snippet expansion.",
           "The ;hello block, arrow and complete reply form a clear cause-and-effect sequence. In the selected v03 revision, the abbreviation and arrow were moved closer to the reply. The example email is illustrative; the creative does not promise new text generation or automatic sending."
         ]
-      },
-      "source": "https://textexpander.com"
+      }
     },
     {
       "id": 11,
@@ -300,8 +290,7 @@ window.PORTFOLIO = {
           "Rather than promising an instant tender win, it explains a process: company resources become the foundation for a draft. Responsive and Loopio references helped focus the hierarchy and give the work a concrete object: a response.",
           "Document categories converge into an RFP draft, while “Ready for your review” preserves a human review step. A light canvas and soft peach accents reflect the brand’s character. Categories and status are illustrative; no speed, accuracy or win-rate figures are used."
         ]
-      },
-      "source": "https://www.inventive.ai"
+      }
     },
     {
       "id": 12,
@@ -327,8 +316,7 @@ window.PORTFOLIO = {
           "The research put the connection between an AI draft and a cited source at the centre. A Vanta reference informed the use of a small, understandable workflow fragment; the new concept replaces its progress bar with an answer, source and review.",
           "Question → AI draft → Source explains the idea without a crowded dashboard. “Review before sharing” preserves the review step. Calm greens reflect Conveyor’s character. The creative does not promise error-free automation; attached means connected to a source, not an email attachment."
         ]
-      },
-      "source": "https://www.conveyor.com"
+      }
     },
     {
       "id": 13,
@@ -354,14 +342,273 @@ window.PORTFOLIO = {
           "One signal was chosen from a wider set: a job change. This focus gives a reason to reconnect without promising a ready-made deal. A 6sense reference informed the short headline and single signal instead of a complex dashboard.",
           "The transition from Past champion to New company becomes the main event, while the dark palette reflects UserGems’ technology-led character. No real personal data is used. A job change does not establish budget, purchasing authority or buying intent."
         ]
+      }
+    },
+    {
+      "id": 14,
+      "brand": "Weavr",
+      "image": "assets/creatives/H2-34-growth-division-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841123/Weavr-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Платёж внутри вашего приложения",
+        "description": "Weavr позволяет добавить выполнение платежей в AP-приложение с сохранением своего UX и авторизации.",
+        "story": [
+          "Концепт для продуктовой команды AP-сервиса: подготовив платёж, пользователь вынужден переходить в другой инструмент. Идея — показать платёжный процесс внутри привычного приложения.",
+          "Посыл сосредоточен на Embedded Payment Run: выбор, авторизация и платёж остаются частями одного сценария. Авторизация явно сохранена; маркировка Beta обозначает стадию продукта в исходном брифе.",
+          "Белая рамка объединяет три шага, а индиго выделяет платёж. Это иллюстративная схема, а не интерфейс интеграции или обещание доступности для любой программы."
+        ]
       },
-      "source": "https://www.usergems.com/product/signals"
+      "en": {
+        "title": "Keep the payment in your AP app.",
+        "description": "Embed payment runs in your own workflow.",
+        "story": [
+          "A concept for an AP product team whose users leave the app to complete a payment. The idea makes an embedded payment workflow visible within one familiar space.",
+          "The message focuses on Embedded Payment Run: selection, authorisation and payment form one sequence. Authorisation stays explicit, and the Beta label reflects the product stage recorded in the brief.",
+          "One white container holds all three steps, with indigo drawing attention to payment. This is an illustrative workflow, not an integration screenshot or a promise of availability for every programme."
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "brand": "Accordance",
+      "image": "assets/creatives/H2-04-interteam-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841179/Accordance-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Исследовать вопрос. Проверить источники.",
+        "description": "Accordance помогает исследовать налоговый вопрос с reasoning и источниками для проверки специалистом.",
+        "story": [
+          "Концепт для налогового специалиста, который разбирает сложный вопрос и должен понимать основания ответа AI. В центре — возможность проверить ход рассуждений и источники.",
+          "Вопрос о трансграничной сделке задаёт контекст, но макет не даёт налогового ответа. Reasoning и Sources представлены отдельно, чтобы подчеркнуть роль специалиста в проверке.",
+          "Бумажная карточка, спокойные оттенки и заголовок с засечками создают атмосферу исследовательского стола. Схема объясняет подход, не гарантируя правильность выводов AI."
+        ]
+      },
+      "en": {
+        "title": "Research the tax question. Review the sources.",
+        "description": "AI tax research with visible reasoning and citations.",
+        "story": [
+          "A concept for a tax professional researching a complex question who needs to inspect the basis of an AI response. Reasoning and sources become the central message.",
+          "A cross-border transaction supplies the example question, without providing tax advice. Separate Reasoning and Sources tabs keep professional review visible in the workflow.",
+          "A paper card, restrained colours and a serif headline suggest a research desk. The diagram explains an approach; it does not guarantee that an AI conclusion is correct."
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "brand": "Lyzr / OpenController",
+      "image": "assets/creatives/H2-14-lyzr-ai-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841293/Lyzr-OpenController-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Остановить вызов до нарушения правил",
+        "description": "OpenController проверяет разрешения агента в пути запроса и может отказать в вызове.",
+        "story": [
+          "Концепт для команды, внедряющей AI-агентов. Задача — показать, где проверяются разрешения: на пути запроса, до выполнения запрещённого действия.",
+          "Для OpenController выбран один сценарий отказа. Цепочка Agent request → Policy check → Denied заканчивается на запрете, без успешного действия за ним.",
+          "Тёмно-синий фон и освещённый путь ведут взгляд к проверке, коралловый акцент отмечает остановку. Это условный сценарий; фактический контроль зависит от политики и интеграции."
+        ]
+      },
+      "en": {
+        "title": "Stop the call. Before it breaks policy.",
+        "description": "Enforce agent permissions in the request path.",
+        "story": [
+          "A concept for a team putting AI agents into production. It shows where permissions are checked: in the request path, before a disallowed action executes.",
+          "OpenController is explained through one denial scenario. Agent request → Policy check → Denied ends at the refusal, with no successful action beyond it.",
+          "A navy field and illuminated path guide the eye towards the check; coral marks the stop. The workflow is illustrative, and actual enforcement depends on policy configuration and integration."
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "brand": "Scrut",
+      "image": "assets/creatives/H2-26-spear-growth-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841343/Scrut-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Собрать доказательства. Сохранить проверку.",
+        "description": "Scrut собирает доказательства для проверки командой, не обещая автоматическое одобрение аудита.",
+        "story": [
+          "Концепт для GRC-команды, которая собирает материалы к аудиту из разных инструментов. Посыл связывает автоматический сбор с последующей проверкой человеком.",
+          "Cloud, Access и Code сходятся в Evidence for review. Важен именно статус «для проверки»: сбор материалов не равен одобрению или завершённому аудиту.",
+          "Мятное поле, тёмная папка и тонкие связи делают процесс понятным без сложного интерфейса. Условная схема не содержит сертификатов и отметок об успешном аудите."
+        ]
+      },
+      "en": {
+        "title": "Collect the evidence. Keep the review.",
+        "description": "Automate evidence collection. Your team reviews and approves.",
+        "story": [
+          "A concept for a GRC team gathering audit evidence from several tools. The message connects automated collection with a subsequent human review.",
+          "Cloud, Access and Code converge on Evidence for review. That status matters: collecting material does not mean it has been approved or that an audit is complete.",
+          "A mint canvas, navy folder and fine connecting lines explain the process without a dense interface. The illustrative diagram avoids certification badges and completed-audit claims."
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "brand": "bambooder",
+      "image": "assets/creatives/H2-19-pimienta-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841375/bambooder-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Бамбуковое волокно в композитах",
+        "description": "BambooSheet Pro стоит рассмотреть инженеру для пресс-формуемых композитных компонентов.",
+        "story": [
+          "Концепт промышленного B2B-продукта для инженера по материалам. Отправная точка — применение BambooSheet Pro в пресс-формуемых компонентах.",
+          "Вместо общего обещания экологичности выбран конкретный материал и следующий шаг — изучить его характеристики. Пригодность состава и режима формования требует инженерной оценки.",
+          "Слоистый лист и формованный элемент создают предметный образ. Светлый шалфейный фон и лаймовый акцент поддерживают композицию; это иллюстрация материала, а не фотография изделия или сертификат."
+        ]
+      },
+      "en": {
+        "title": "Bamboo fiber. Built into composites.",
+        "description": "Explore BambooSheet Pro for press-molded components.",
+        "story": [
+          "An industrial B2B concept for a materials engineer considering BambooSheet Pro for press-moulded components.",
+          "The message names a material and invites a closer look at its specifications. Suitability of the composition and forming process still requires engineering assessment.",
+          "A layered sheet and a moulded panel make the subject tangible. Pale sage and a lime accent frame an illustrative material concept, not a product photograph or a certification."
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "brand": "Zinc",
+      "image": "assets/creatives/H2-22-getuplead-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841411/Zinc-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Рекомендации без ручных напоминаний",
+        "description": "Zinc берёт на себя напоминания рекомендателям и прекращает их после ответа.",
+        "story": [
+          "Концепт для recruiting operations: при проверке рекомендаций команде приходится напоминать людям, которые ещё не ответили. В центре — это повторяющееся действие.",
+          "Zinc показан через автоматическое напоминание и остановку после ответа. Посыл не обещает, что рекомендатель обязательно ответит или сделает это к определённому сроку.",
+          "Крупный конверт, розовая стрелка и мятная карточка ответа объясняют механизм. Схема не показывает оценку кандидата и не подразумевает бесконечные напоминания."
+        ]
+      },
+      "en": {
+        "title": "Reference checks. Without the chasing.",
+        "description": "Zinc sends automatic follow-ups to referees who haven't replied.",
+        "story": [
+          "A concept for recruiting operations teams following up with referees who have yet to reply. One repetitive task becomes the focus.",
+          "Zinc is explained through automatic follow-ups that stop after a reply. The message does not promise that a referee will respond or commit to a response time.",
+          "An oversized envelope, pink arrow and mint reply card make the mechanism visible. The diagram neither evaluates a candidate nor suggests unlimited reminders."
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "brand": "Constant Contact",
+      "image": "assets/creatives/H2-21-42-agency-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841449/Constant-Contact-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Видеть, на какой стадии сделка",
+        "description": "Lead Gen & CRM показывает положение возможностей в настраиваемых стадиях продаж.",
+        "story": [
+          "Концепт для руководителя продаж перед разбором воронки. Задача — увидеть положение каждой возможности в процессе команды.",
+          "Для Lead Gen & CRM выбраны настраиваемые стадии продаж. Qualified, Proposal и Negotiation — примеры стадий, а не обязательный для всех процесс.",
+          "Три колонки на голубом фоне организуют информацию, жёлтый акцент выделяет действие. Нет стрелок автоматического продвижения и выигранных сделок: макет показывает видимость статуса, не результат продаж."
+        ]
+      },
+      "en": {
+        "title": "Know where each deal stands.",
+        "description": "Track opportunities through custom sales stages in Lead Gen & CRM.",
+        "story": [
+          "A concept for a sales manager preparing for a pipeline review. The task is to see where each opportunity sits in the team’s process.",
+          "The focus is custom sales stages in Lead Gen & CRM. Qualified, Proposal and Negotiation are example stages, not a prescribed process for every team.",
+          "Three columns on a pale blue field organise the information, while yellow highlights the action. No automatic progression or won deals are shown: the concept explains visibility, not a sales outcome."
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "brand": "Sahaj",
+      "image": "assets/creatives/H2-25-renegade-marketing-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841477/Sahaj-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Стандарты команды в работе с AI",
+        "description": "Sahaj встраивает инженерные стандарты в AI-процессы, сохраняя человеческую проверку.",
+        "story": [
+          "Концепт инженерной услуги для CTO, чья команда уже использует AI-инструменты. Вопрос — как встроить собственные стандарты в повседневный процесс.",
+          "Три слоя связывают Team standards, AI-assisted work и Human review. Проверка человеком остаётся явной частью подхода.",
+          "Полупрозрачные листы, сливовая типографика и свободное пространство создают спокойную инженерную композицию. Это схема подхода, а не интерфейс SaaS или обещание устранить все ошибки."
+        ]
+      },
+      "en": {
+        "title": "Your engineering standards. Inside your AI workflow.",
+        "description": "Codify team patterns into prompts. Keep human review in the loop.",
+        "story": [
+          "An engineering-service concept for a CTO whose team already uses AI tools. It asks how the team’s own standards can become part of everyday work.",
+          "Three layers connect Team standards, AI-assisted work and Human review. Human review remains an explicit part of the approach.",
+          "Translucent sheets, plum typography and generous space create a calm engineering composition. This is a diagram of an approach, not a SaaS interface or a promise to eliminate every error."
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "brand": "Expel",
+      "image": "assets/creatives/H2-29-modern-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841511/Expel-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Освободить место для долгосрочной безопасности",
+        "description": "Клиентский опыт Expel связывает обработку alerts с возможностью заниматься долгосрочной безопасностью.",
+        "story": [
+          "Концепт для руководителя безопасности, который хочет уделять время долгосрочным задачам наряду с обработкой оповещений. В основе — сохранённая в исследовании клиентская история Expel.",
+          "В макете использован фрагмент опубликованной цитаты Colin Metzler из Dayton Children’s с указанием имени и должности. Это опыт клиента Expel, а не результат нашей рекламной работы и не гарантия для всех команд.",
+          "На угольном фоне крупные зелёные кавычки выделяют текст. Композиция обходится без вымышленного портрета, рейтинга и числовых обещаний; концепт независимый, брендом не заказан."
+        ]
+      },
+      "en": {
+        "title": "Make room for long-term security work.",
+        "description": "24/7 managed detection and response.",
+        "story": [
+          "A concept for a security leader balancing alerts with longer-term work. It draws on an Expel customer story preserved in the research materials.",
+          "The artwork uses an excerpt attributed to Colin Metzler of Dayton Children’s, with his name and role. It describes an Expel customer’s experience, not the outcome of our advertising work or a guarantee for every team.",
+          "Large green quotation marks bring the text forward on charcoal. The layout avoids invented portraits, ratings and numerical promises. This independent concept was not commissioned by the brand."
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "brand": "Basware",
+      "image": "assets/creatives/H2-35-xander-marketing-display-720.png",
+      "width": 720,
+      "height": 720,
+      "url": "https://www.behance.net/gallery/255841535/Basware-Independent-B2B-Ad-Concept",
+      "ru": {
+        "title": "Найти расхождения в выписках поставщиков",
+        "description": "Basware Statement Matching выявляет расхождения между выпиской поставщика и AP ledger для последующей проверки.",
+        "story": [
+          "Концепт для команды расчётов с поставщиками перед закрытием периода. Задача — заметить, где выписка поставщика расходится с учётными данными.",
+          "Statement Matching объясняется сравнением двух документов. Выделенное несовпадение направляется на проверку, без обещаний возврата денег или автоматической оплаты.",
+          "Розовый фон объединяет белые панели Supplier statement и AP ledger. Контрастная строка и пустое место напротив показывают разницу; данные условные, суммы и реальные счета отсутствуют."
+        ]
+      },
+      "en": {
+        "title": "Find the gaps in supplier statements.",
+        "description": "Match supplier statements against AP ledger data to spot discrepancies.",
+        "story": [
+          "A concept for an accounts payable team preparing for period close. It focuses on spotting differences between a supplier statement and ledger data.",
+          "Statement Matching is explained by comparing two documents. A highlighted mismatch is marked for review, without promising recovered money or automatic payment.",
+          "A pink field holds white Supplier statement and AP ledger panels. A contrasting line and an empty slot opposite it reveal the gap. The data is illustrative, with no amounts or real invoices."
+        ]
+      }
     }
   ],
   "copy": {
     "ru": {
       "title": "Dana Fink — рекламные креативы для SaaS",
-      "description": "Посыл, текст и визуальная идея для SaaS-рекламы. Портфолио Dana Fink: 13 независимых креативов для 11 продуктов.",
+      "description": "Посыл, текст и визуальная идея для B2B-рекламы. Портфолио Dana Fink: 23 независимых креатива для 21 продукта и услуги.",
       "skip": "К содержимому",
       "navWork": "Работы",
       "navAbout": "Подход",
@@ -414,7 +661,6 @@ window.PORTFOLIO = {
       "context": "Предыстория",
       "analysis": "Разбор задачи",
       "solution": "Почему так",
-      "source": "Продуктовый источник",
       "showMore": "Показать больше",
       "showLess": "Свернуть",
       "like": "Нравится идея",
@@ -434,7 +680,7 @@ window.PORTFOLIO = {
     },
     "en": {
       "title": "Dana Fink — SaaS ad creative",
-      "description": "Messaging, copy and visual direction for SaaS ads. Dana Fink’s portfolio: 13 independent creatives for 11 products.",
+      "description": "Messaging, copy and visual direction for B2B ads. Dana Fink’s portfolio: 23 independent creatives for 21 products and services.",
       "skip": "Skip to content",
       "navWork": "Work",
       "navAbout": "Approach",
@@ -487,7 +733,6 @@ window.PORTFOLIO = {
       "context": "The context",
       "analysis": "The thinking",
       "solution": "The creative decision",
-      "source": "Product reference",
       "showMore": "Show more",
       "showLess": "Show less",
       "like": "Like this idea",

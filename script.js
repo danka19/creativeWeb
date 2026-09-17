@@ -13,7 +13,6 @@
     document.querySelector('#viewer-case').href=p.url;
     const story=document.querySelector('#viewer-story');story.replaceChildren();
     ['context','analysis','solution'].forEach((key,i)=>{const section=document.createElement('section');const heading=document.createElement('h4');heading.textContent=c[key];const paragraph=document.createElement('p');paragraph.textContent=p[lang].story[i];section.append(heading,paragraph);story.append(section);});
-    const source=document.createElement('a');source.href=p.source;source.target='_blank';source.rel='noopener noreferrer';source.textContent=c.source+' ↗';story.append(source);
     const list=visible(),position=list.indexOf(index);
     document.querySelector('#viewer-count').textContent=String(position+1).padStart(2,'0')+' / '+String(list.length).padStart(2,'0');
     document.querySelector('#previous').disabled=position===0;
