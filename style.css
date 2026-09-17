@@ -66,3 +66,4 @@
 @media(min-width:1000px) and (max-width:1150px){
   .project{padding-left:52px}
 }
+.contact-actions{display:flex;flex-wrap:wrap;gap:12px}.button.telegram-button{background:#dceaff;color:#192031}.button.telegram-button:hover{background:#c4dcff}.contact-actions .button{justify-content:space-between}

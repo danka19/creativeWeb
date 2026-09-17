@@ -72,7 +72,7 @@
   document.querySelector('.email').textContent=data.email;
   document.querySelectorAll('.behance-top,.socials a:first-child').forEach(el=>el.href=data.behance);
   document.querySelector('.collection-link').href=data.collection;
-  if(data.telegram){try{const url=new URL(data.telegram);if(url.protocol==='https:'){const el=document.querySelector('#telegram');el.hidden=false;el.href=url.href;el.target='_blank';el.rel='noopener noreferrer';}}catch{}}
+  document.querySelectorAll('#telegram,[data-telegram]').forEach(el=>{el.hidden=true;if(data.telegram){try{const url=new URL(data.telegram);if(url.protocol==='https:'){el.hidden=false;el.href=url.href;el.target='_blank';el.rel='noopener noreferrer';}}catch{}}});
   let saved;try{saved=localStorage.getItem('portfolio-language');}catch{}
   let liked=[];try{const value=JSON.parse(localStorage.getItem('portfolio-likes')||'[]');if(Array.isArray(value))liked=value.filter(id=>Number.isInteger(id));}catch{}
   function updateLikeLabels(){document.querySelectorAll('[data-like]').forEach(button=>{const active=liked.includes(Number(button.dataset.like));button.setAttribute('aria-pressed',String(active));button.setAttribute('aria-label',getCopy()[active?'unlike':'like']);});}
