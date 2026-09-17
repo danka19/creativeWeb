@@ -92,7 +92,12 @@
     const container=document.querySelector('#share-rows');container.replaceChildren();
     rows.filter(([,value])=>value).forEach(([label,value],index)=>{
       const row=document.createElement('div');row.className='share-row';const field=document.createElement('div');const name=document.createElement('label');name.htmlFor='share-value-'+index;name.textContent=label;
-      const input=document.createElement('input');input.id=name.htmlFor;input.readOnly=true;input.value=value;input.addEventListener('click',()=>input.select());field.append(name,input);
+      const input=document.createElement('input');input.id=name.htmlFor;input.readOnly=true;input.value=value;input.addEventListener('click',()=>input.select());
+      const link=document.createElement('a');link.className='share-open';link.href=label==='Email'?'mailto:'+value:value;
+      if(label!=='Email'){link.target='_blank';link.rel='noopener noreferrer';}
+      const openLabel=(lang==='ru'?'Открыть: ':'Open: ')+label;link.setAttribute('aria-label',openLabel);link.title=openLabel;
+      link.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3 10 14M10 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5"/></svg>';
+      const valueRow=document.createElement('div');valueRow.className='share-value';valueRow.append(link,input);field.append(name,valueRow);
       const copy=document.createElement('button');copy.type='button';copy.textContent=c.copy;copy.setAttribute('aria-label',c.copy+': '+label);
       copy.addEventListener('click',async()=>{const ok=await copyValue(value,input);copy.textContent=ok?c.copiedShort:c.copy;document.querySelector('.share-status').textContent=ok?label+' — '+c.copiedShort:c.copyError;if(ok)copy.focus();});row.append(field,copy);container.append(row);
     });
