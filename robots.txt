@@ -1,0 +1,6 @@
+# Search crawling is allowed. This preserves the previous default crawl policy.
+# GPTBot (training) and OAI-SearchBot (search) have independent controls.
+User-agent: *
+Allow: /
+
+Sitemap: https://danafinkcreatives.netlify.app/sitemap.xml
