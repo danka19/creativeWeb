@@ -1,4 +1,4 @@
-// Данные, контакты, тексты RU / EN и истории 13 концептов.
+// Portfolio content. siteUrl: optional public website URL for sharing before deployment.
 window.PORTFOLIO = {
   "name": "Dana Fink",
   "email": "danafinkmain@gmail.com",
@@ -374,10 +374,9 @@ window.PORTFOLIO = {
       "viewWork": "Смотреть работы",
       "heroNote": "Посыл → текст → визуал",
       "heroCaption": "Идеи, которые можно увидеть.",
-      "heroCaptionSmall": "Из коллекции независимых концептов",
       "workLabel": "01 / ПОРТФОЛИО",
-      "workTitle": "Сначала — работы.",
-      "workIntro": "13 креативов. 11 продуктов. У каждой идеи — своя задача и свой характер.",
+      "workTitle": "Лента идей.",
+      "workIntro": "13 креативов, 11 продуктов. Идеи, ход мысли и истории, которые за ними стоят.",
       "all": "Все работы",
       "square": "Квадратные",
       "landscape": "Горизонтальные",
@@ -416,7 +415,23 @@ window.PORTFOLIO = {
       "analysis": "Разбор задачи",
       "solution": "Почему так",
       "source": "Продуктовый источник",
-      "researchDate": "Основа: исследование 14–16 сентября 2026. Описание замысла, не результатов кампании."
+      "showMore": "Показать больше",
+      "showLess": "Свернуть",
+      "like": "Нравится идея",
+      "unlike": "Убрать отметку",
+      "share": "Поделиться",
+      "shareTitle": "Идеями стоит делиться.",
+      "shareIntro": "Сохраните идею. Поделитесь ей. Начните разговор.",
+      "copy": "Копировать",
+      "copiedShort": "Скопировано",
+      "website": "Сайт",
+      "creative": "Этот креатив",
+      "localWebsite": "Портфолио на Behance",
+      "localCreative": "Креатив на Behance",
+      "localShareNote": "В локальном превью используются публичные ссылки Behance.",
+      "copyError": "Не удалось скопировать автоматически. Выделите и скопируйте текст.",
+      "postType": "Независимый рекламный концепт",
+      "feedNote": "Коллекция независимых идей. С интересом к сути."
     },
     "en": {
       "title": "Dana Fink — SaaS ad creative",
@@ -433,10 +448,9 @@ window.PORTFOLIO = {
       "viewWork": "Explore the work",
       "heroNote": "Message → copy → visual",
       "heroCaption": "Ideas you can see.",
-      "heroCaptionSmall": "From the independent concept collection",
       "workLabel": "01 / PORTFOLIO",
-      "workTitle": "Let the work talk.",
-      "workIntro": "13 creatives. 11 products. Each idea has a purpose and a character of its own.",
+      "workTitle": "A feed of ideas.",
+      "workIntro": "13 creatives, 11 products. The ideas, the thinking, and the stories behind them.",
       "all": "All work",
       "square": "Square",
       "landscape": "Landscape",
@@ -475,7 +489,24 @@ window.PORTFOLIO = {
       "analysis": "The thinking",
       "solution": "The creative decision",
       "source": "Product reference",
-      "researchDate": "Based on research from 14–16 September 2026. Creative rationale, not campaign results."
+      "showMore": "Show more",
+      "showLess": "Show less",
+      "like": "Like this idea",
+      "unlike": "Unlike this idea",
+      "share": "Share",
+      "shareTitle": "Pass the idea along.",
+      "shareIntro": "An idea worth sharing. A conversation worth starting.",
+      "copy": "Copy",
+      "copiedShort": "Copied",
+      "website": "Website",
+      "creative": "This creative",
+      "localWebsite": "Portfolio on Behance",
+      "localCreative": "Creative on Behance",
+      "localShareNote": "Public Behance links are used in this local preview.",
+      "copyError": "Could not copy automatically. Select and copy the text.",
+      "postType": "Independent ad concept",
+      "feedNote": "A collection of independent ideas. Made with curiosity."
     }
-  }
+  },
+  "siteUrl": null
 };
