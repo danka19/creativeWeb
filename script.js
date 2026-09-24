@@ -27,6 +27,7 @@
     lang=language;const c=getCopy();document.documentElement.lang=lang;document.title=c.title;
     document.querySelector('meta[name="description"]').content=c.description;
     document.querySelectorAll('[data-i18n]').forEach(el=>{el.textContent=c[el.dataset.i18n];});
+    document.querySelector('.floating-contact').setAttribute('aria-label',c.floatingContact);
     document.querySelectorAll('[data-language]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.language===lang)));
     document.querySelectorAll('[data-project-title]').forEach(el=>el.textContent=data.projects[el.dataset.projectTitle][lang].title);
     document.querySelectorAll('[data-project-description]').forEach(el=>el.textContent=data.projects[el.dataset.projectDescription][lang].description);
@@ -104,6 +105,23 @@
   }));
   document.querySelector('.share-close').addEventListener('click',()=>shareDialog.close());
   shareDialog.addEventListener('click',event=>{if(event.target!==shareDialog)return;const r=shareDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)shareDialog.close();});
+  const floatingContact=document.querySelector('.floating-contact');
+  const contactSection=document.querySelector('#contact');
+  let contactVisible=false;
+  const observesContact='IntersectionObserver' in window;
+  function updateFloatingContact(){
+    if(!observesContact){const bounds=contactSection.getBoundingClientRect();contactVisible=bounds.top<window.innerHeight&&bounds.bottom>0;}
+    const shouldShow=window.scrollY>=window.innerHeight&&!contactVisible;
+    floatingContact.hidden=!shouldShow;
+    floatingContact.setAttribute('aria-hidden',String(!shouldShow));
+    if(!shouldShow&&document.activeElement===floatingContact)floatingContact.blur();
+  }
+  if(observesContact){
+    new IntersectionObserver(entries=>{contactVisible=entries[0].isIntersecting;updateFloatingContact();},{threshold:.05}).observe(contactSection);
+  }
+  window.addEventListener('scroll',updateFloatingContact,{passive:true});
+  window.addEventListener('resize',updateFloatingContact);
+  updateFloatingContact();
   const requested=new URLSearchParams(location.search).get('lang');
   renderLanguage(['ru','en'].includes(requested)?requested:saved==='ru'?'ru':'en');
 })();

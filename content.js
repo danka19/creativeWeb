@@ -1,7 +1,7 @@
 // Portfolio content. siteUrl: optional public website URL for sharing before deployment.
 window.PORTFOLIO = {
   "name": "Dana Fink",
-  "email": "danafinkmain@gmail.com",
+  "email": "dana@danafinkstudio.com",
   "behance": "https://www.behance.net/bed0d1bc",
   "collection": "https://www.behance.net/gallery/255787597/B2B-Ad-Concepts-21-Products-and-Services",
   "telegram": "https://t.me/dankosheart",
@@ -614,6 +614,7 @@ window.PORTFOLIO = {
       "navService": "Услуга (EN)",
       "navAbout": "Подход",
       "navContact": "Обсудим проект",
+      "floatingContact": "Контакты",
       "role": "SaaS ad creative",
       "eyebrow": "DANA FINK / ДИЗАЙН РЕКЛАМНЫХ КРЕАТИВОВ",
       "headline": "Делаю смысл",
@@ -688,6 +689,7 @@ window.PORTFOLIO = {
       "navService": "Service",
       "navAbout": "Approach",
       "navContact": "Let’s talk",
+      "floatingContact": "Contact",
       "role": "SaaS ad creative",
       "eyebrow": "DANA FINK / SAAS AD CREATIVE",
       "headline": "Making ideas",
@@ -755,5 +757,5 @@ window.PORTFOLIO = {
       "feedNote": "A collection of independent ideas. Made with curiosity."
     }
   },
-  "siteUrl": null
+  "siteUrl": "https://danafinkstudio.com/"
 };

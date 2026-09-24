@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danafinkcreatives.netlify.app/sitemap.xml
+Sitemap: https://danafinkstudio.com/sitemap.xml
